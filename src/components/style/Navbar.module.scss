@@ -1,0 +1,35 @@
+.container {
+  background-color: #fff;
+  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.4);
+  height: 70px;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    .logo {
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      h1 {
+        margin-left: 15px;
+      }
+
+      .icon {
+        cursor: pointer;
+        font-size: 18px;
+      }
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+
+      h3 {
+        margin-right: 10px;
+        align-self: flex-end;
+      }
+    }
+  }
+}
